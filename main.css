@@ -1,0 +1,248 @@
+@import url(css/bootstrap/bootstrap.min.css);
+@import url(font/iconic/open-iconic-bootstrap.min.css);
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&subset=latin-ext");
+
+.navbar-light .navbar-nav .nav-link {
+    letter-spacing: 0.1em;
+    color: #000;
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.bg-light {
+    background-color: #fff!important;
+}
+
+.navbar-light .navbar-toggler {
+
+    background-color: #ffffff!important;
+    border-color: transparent;
+}
+
+#aboutUs .container-fluid {
+    background-color: #f6f6f6;
+    height: 225px;
+}
+
+#aboutUs .container-fluid .row .col h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 4.5rem !important;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#aboutUs .container-fluid .row .col nav ol {
+    background-color: transparent;
+}
+
+#hello {
+    background-color: red;
+    height: 155px;
+    width: auto;
+}
+
+#hello .container-fluid .row h1 {
+    font-size: 11rem;
+    padding-top: 5%;
+}
+
+#whatWeDo {
+    height: 116px;
+}
+
+#whatWeDo h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 200px;
+}
+
+#whatWeDo p {
+    color: #969696;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    letter-spacing: 23px;
+}
+
+#base {
+    background: url("img/assets/samuel-ferrara-117219.png") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#features {
+    border-bottom: 1px solid #e2e2e2 !important;
+}
+
+#features h1 {
+    letter-spacing: 7px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 72px;
+    font-weight: bold;
+}
+
+#features h3 {
+    border-bottom: 5px solid #000 !important;
+    width: 70px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    letter-spacing: 5px;
+}
+
+#ourTeam h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#ourTeam p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #919191;
+}
+
+#ourTeam hr {
+    width: 70px;
+    height: 4px;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+/* PORTFOLIO */
+
+#portfolio {
+    margin-bottom: 74px;
+}
+
+#portfolio #porty {
+    padding-bottom: 6px;
+}
+
+#portfolio .col-md-3 {
+    text-align: center;
+}
+
+#portfolio h4 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#portfolio .fa {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#portfolio p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#portfolio .imageContainer {
+    position: relative;
+    cursor: pointer;
+}
+
+#portfolio .imageContainer:hover .imageOverlay {
+    opacity: .7;
+}
+
+
+#features i {
+    font-size: 24px;
+}
+
+h3.mt-3.text-uppercase {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+#fi {
+    padding-top: 6rem !important;
+    padding-bottom: 2rem !important;
+}
+
+#fi .card {
+    border-radius: 0px;
+}
+
+
+.accordion .card-header:after {
+    font-family: 'FontAwesome';
+    content: "\f068";
+    float: right;
+}
+
+.accordion .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f067";
+}
+
+
+
+.card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #f9f9f9;
+}
+
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, .03);
+    border-bottom: 1px solid #f9f9f9;
+}
+
+footer {
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+
+
+
+@media (max-width: 767.98px) {
+
+    #whatWeDo h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 160px;
+        padding-top: 3%;
+    }
+}
+
+
+@media (max-width: 575.98px) {
+    #portfolio .imageContainer {
+        padding-bottom: 15px;
+    }
+    #whatWeDo h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 100px;
+        padding-top: 15%;
+    }
+}
+
+
+
+
+
+
+
+/*# sourceMappingURL=style.css.map */
